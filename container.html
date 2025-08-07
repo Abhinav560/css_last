@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container</title>
+    <style>
+        .container{
+            display: grid;
+            background-color: beige;
+            grid-template-columns: auto auto auto auto ;
+            padding: 10px;
+        }
+        .container>div{
+            border: 2px solid;
+            padding: 10px;
+            background-color: red;
+            text-align: center; 
+        }
+        body{
+            background-color: rgb(37, 119, 92);
+        }
+           @media only screen and (max-width:600px){
+            body{
+                background-color:red;
+            }
+        }
+        .division{
+            color: blue;
+            background-color: black;
+            width: 300px;
+            height: 150px;
+            transition: width 2s;
+            transform: rotate(30deg);
+        }
+        .division:hover{
+            cursor: pointer;
+            width: 700px;
+        }
+        .animation{
+            width: 300px;
+            height: 200px;
+            background-color: cornflowerblue;
+            animation-name: example;
+            animation-duration: 3s;
+            cursor: pointer;
+        }
+        @keyframes example {
+            from{background-color: cornflowerblue;}
+            to{background-color: yellow;}
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+    <div>
+        <div class="division"></div>
+    </div>
+    <div class="animation">
+
+    </div>
+</body>
+</html>
