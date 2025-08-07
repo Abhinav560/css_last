@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positioning_css</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            margin: 200px;
+            background-color: grey;
+            width: 300px;
+            height: 900px;
+        }
+        .box{
+            width: 200px;
+            height: 120px;
+        }
+        .red{
+            background-color: rgb(182, 14, 14);
+            position: sticky;
+            top: 400px;
+            left: 100px;
+        }
+        .purple{
+            background-color: blueviolet;
+            position: fixed;
+            top: 40px;
+            bottom: 50px;
+            right: 30px;
+        }
+        .blue{
+            background-color: blue;
+            position:sticky;
+            left: 300px;
+            top: 400px;
+        }
+        .green{
+            background-color: greenyellow;
+            position: static;
+            top: 500px;
+            bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box red">red</div>
+        <div class="box purple">purple</div>
+        <div class="box green">green</div>
+        <div class="box blue">blue</div>
+    </div>
+</body>
+</html>
