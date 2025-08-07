@@ -1,0 +1,23 @@
+.inner{
+    text-align: center;
+    border-radius: 5px;
+   margin: 30px;
+    border: solid 2px yellow;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.outer{
+   margin-top: 100px;
+   border: solid 2px yellow;
+   padding: 20px;
+   background-color: grey;
+}
+.btn{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 15px;
+}
