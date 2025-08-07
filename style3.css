@@ -1,0 +1,9 @@
+.d{
+    color: burlywood;
+    background-color: black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: large;
+    margin: 30px;
+}

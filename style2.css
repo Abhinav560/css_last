@@ -1,0 +1,9 @@
+.b{
+    color: beige;
+    background-color: red;
+    padding: 10px;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+    margin: 30px;
+}

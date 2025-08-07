@@ -1,0 +1,15 @@
+.p{
+    color: beige;
+    font-size: large;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: red;
+    cursor: pointer;
+    border-width: 5px;
+    border-color: blueviolet;
+}
+.d{
+    color: blueviolet;
+    background-color: aqua;
+    font-size: large;
+}
